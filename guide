@@ -1,0 +1,120 @@
+How To Setup Bot.
+
+Info 
+Auto Boy : https://goodgamertype.sellauth.com/product/1b278d68df359
+Support Discord Server [ Must Join ] : https://discord.gg7Gb6nyH5xv
+Dm goodgamerback If Any Problem
+Use .support if any bug or want to give suggtion
+Save Invoie id Of Order 
+use .help cmd to get list of cmd and guide
+Don't Share Your Token/Private Key To Anyone Even He/she is your Close Friend Just Don't
+This Bot is Totally Safe And Only You Have Access To Your Config Details
+
+You Shoud Have Python Installed
+Install Requirements
+For 24x7 Hosting Use 
+https://bot-hosting.net/panel/
+Create a free python Server
+And Upload Zip File Of Bot Then Unachirve It
+Then Simplly Run Bot Requiemnets Will be Installed Automationlly
+
+put wallet private key and address in wallet.json
+you can add unlimited wallets btw
+put token in config
+
+how To Get Discord Token
+Read : https://www.geeksforgeeks.org/how-to-get-discord-token/
+How To Get Private Key/Address
+1 : Open Your Exodus On pc Select Ltc Assets Click on 3 dots Then Show Private Keys And Copy Address + Private Key
+2 : idk Use chatgpt or google 
+
+Other Apis
+I already puted Apis There 
+if you are getting problem to generate image / check bal / send ltc
+then create your own apis 
+
+Go On Web Create Account On home You Will Get Your 2 apis
+https://tatum.io/
+Go here create a app also create account you will see access key https://unsplash.com/developers
+i don't think you need blockexploer api still you can get it 
+
+here is ai generated tutorial
+
+Welcome to the Raftar Selfbot V2! This guide will help you set up the bot and provide descriptions of all available commands.
+
+1. **Python 3.8+**: Ensure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/).
+2. **pip**: Ensure you have `pip` installed for managing Python packages.
+
+
+3. **Install Dependencies**:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Configure the Bot**:
+   - Fill in the necessary information such as your `user_token`.
+
+### Running the Bot
+
+1. **Run the Bot**:
+   ```sh
+   python bot.py
+   ```
+
+   Ensure `bot.py` is the main script that starts your bot.
+
+## Command Guide
+
+### 💵 Crypto Commands
+
+- **`.send <wallet_num> <addy> <amt in usd>`**: Send LTC to another address.
+- **`.bal <addy>`**: Check LTC balance of any address.
+- **`.mybal <wallet_num>`**: Check your LTC balance.
+- **`.addy <wallet_num>`**: Show your Litecoin address.
+- **`.lp`**: Show current Litecoin price in USD.
+- **`.l2u <amt>`**: Convert LTC to USD.
+- **`.u2l <amt>`**: Convert USD to LTC.
+
+### ⭐ Utility Commands
+
+- **`.afk <reason>`**: Set yourself as AFK.
+- **`.unafk`**: Remove AFK status.
+- **`.upiqr <amt> <note>`**: Generate a UPI QR code with a custom amount/note.
+- **`.dm <user> <message>`**: Send a direct message to a user.
+- **`.calc <amt1> <syntax> <amt2>`**: Perform a calculation (syntax: *, /, -, +).
+- **`.user_info @user`**: Get user info.
+- **`.translate <text>`**: Translate text to English.
+
+### 🏆 Fun Commands
+
+- **`.meme`**: Generate a meme.
+- **`.joke`**: Get a joke.
+- **`.get_image <query>`**: Generate an image by query.
+- **`.spam <count> <message>`**: Spam messages.
+- **`.snipe`**: Retrieve the last deleted message in the channel.
+
+### 🎨 Status and Utility Commands
+
+- **`.start_rotater`**: Start rotating statuses.
+- **`.stop_rotater`**: Stop rotating statuses.
+- **`.servercloner <source_guild_id> <target_guild_id>`**: Clone a server.
+- **`.checkpromo <promo_links>`**: Check the validity of promo links.
+- **`.checktoken <token>`**: Check if a token is valid.
+
+## Using Commands
+
+1. **Prefix**: Ensure you use the correct prefix (`.`) before each command.
+2. **Arguments**: Some commands require additional arguments (e.g., `<wallet_num>`, `<addy>`, `<amt in usd>`).
+3. **Example**:
+   - To send LTC: `.send 1 LSbcN1234abcd5678efgh 10`
+   - To check your LTC balance: `.mybal 1`
+   - To generate a meme: `.meme`
+   - To spam a message: `.spam 5 Hello!`
+
+## Additional Notes
+
+- **AFK Command**: Use `.afk <reason>` to set your status to AFK with a reason. Use `.unafk` to remove the AFK status.
+- **Direct Messages**: Use `.dm <user> <message>` to send a direct message to a user. Replace `<user>` with the target user's name and `<message>` with your message.
+- **Translation**: Use `.translate <text>` to translate any text to English. Replace `<text>` with the text you want to translate.
+
+By following this guide, you should be able to set up and effectively use the Raftar Selfbot V2. Enjoy the features and have fun with the commands! If you encounter any issues or have questions, feel free to reach out for support.
